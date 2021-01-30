@@ -1,0 +1,85 @@
+
+.footer{
+    background-color: transparent;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+}
+
+
+.redes{
+    padding: 1rem;
+    font-size: 1rem;
+    text-shadow: 2px 2px 4px #000000;
+    color: rgb(255, 255, 255);   
+}
+
+.redes:hover{
+    transform: scale(1.1,1.2);
+    transition: 0.4s;
+}
+
+.textoFooter{
+    font-size: 0.6rem;
+    font-family: 'Esteban', serif;
+    margin-bottom: 3px;
+}
+
+/*footer Contacto*/
+
+.footerContact{
+    background-color: rgb(24, 19, 19);
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: auto;
+}
+
+.redesContact{
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: whitesmoke;   
+}
+
+.redesContact:hover{
+    transform: scale(1.1,1.2);
+    transition: 0.3s;
+}
+
+.textoFooter-cont{
+    font-size: 0.8rem;
+    font-family: 'Esteban', serif;  
+}
+
+/*medias*/
+
+@media (min-width: 768px){
+    .redes{
+        font-size: 1.3rem;
+    }
+    .textoFooter{
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 1024px){
+    .redes{
+        font-size: 1.1rem;
+    }
+    .textoFooter{
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 1200px){
+    .redes{
+        font-size: 1.5vw;
+    }
+}

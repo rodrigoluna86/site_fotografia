@@ -1,0 +1,49 @@
+
+.bodyIndex{
+    background-image:url(../images/fashion/mainmobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sectionmain{
+    min-height: calc(100vh - 56px - 126px);
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.sectionmain__titles{
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px #000000;
+    letter-spacing: 1.5rem; 
+    font-size: 14vw;
+}  
+
+
+/*QUERIES*/
+
+@media (min-width:768px){
+    .bodyIndex{
+        background-position: inherit;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .sectionmain__titles{
+        font-size: 16vw;
+    } 
+}
+
+@media (min-width:1024px){
+    .bodyIndex{
+        background-image:url(../images/getintouch/tumblr_phg1p32xA81r25epro1_1280.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .sectionmain__titles{
+        font-size: 11vw;
+    }
+}
+
