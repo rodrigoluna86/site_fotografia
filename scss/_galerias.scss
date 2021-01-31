@@ -11,6 +11,17 @@
     object-fit: cover;
 }
 
+.itemGaleria:nth-child(1){
+    grid-column-start: span 2;
+}
+
+.itemGaleria-catalogue:nth-child(1){
+    grid-row-start: span 2;
+}
+
+.cajaTexto-advertising{
+    grid-column-start: span 2;
+}
 
 @media (min-width:768px){
     .contGaleria{

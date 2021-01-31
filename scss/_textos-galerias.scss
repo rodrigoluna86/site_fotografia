@@ -1,0 +1,121 @@
+/*BEAUTY*/
+
+.cajaTexto-galeria{
+    display: grid;
+    align-content: center;
+    background-color: rgb(78, 78, 78);
+    border-radius: 2.5px;
+}
+
+.tituloGaleria{
+    font-family: 'ovo';
+    text-transform: uppercase;
+    color: rgb(231, 154, 154);
+    padding-bottom: 0.1vh;
+    text-align: center;
+    font-size: 8.5vw;
+    text-shadow: 1px 1px 1px #d4d3d3;
+}
+
+.textoGaleria{
+    font-size: 2.8vw;
+    letter-spacing: 1px;
+    text-align: justify;
+    padding: 0 3.5vw 0 3.5vw;
+    color: white;    
+}
+
+/*CATALOGUE*/
+
+.itemGaleria-catalogue{
+    display: grid;
+    align-content: center;
+    background-color: rgb(78, 78, 78);
+    border-radius: 2.5px;
+}
+
+.tituloGaleria-catalogue{
+    font-family: 'ovo';
+    text-transform: uppercase;
+    color: rgb(231, 154, 154);
+    padding-bottom: 5vh;
+    padding-left: 1.3vw;
+    text-align: center;
+    font-size: 8.5vw;
+    padding-right: 10px;
+    text-shadow: 1px 1px 1px #9e4e4e;
+}
+
+.textoGaleria-catalogue{
+    font-size: 2.5vw;
+    letter-spacing: 1px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding-left: 1.5vw;
+}
+
+.textoGaleria-catalogue2{
+    font-size: 2.5vw;
+    letter-spacing: 1px;
+    text-align: left;
+    color: rgb(255, 254, 254);
+    font-weight: bold;
+    padding-left: 1.3vw;
+}
+
+/*ADVERTISING*/
+
+.cajaTexto-advertising{
+    display: grid;
+    align-content: center;
+    background-color: rgb(78, 78, 78);
+    border-radius: 2.5px;
+}
+
+.tituloGaleria-advertising{
+    font-family: 'ovo';
+    text-transform: uppercase;
+    color: rgb(231, 154, 154);
+    padding-bottom: 0.1vh;
+    text-align: center;
+    font-size: 8.5vw;
+    text-shadow: 1px 1px 1px #d4d3d3;
+}
+
+.textoGaleria-advertising{
+    font-size: 2.8vw;
+    letter-spacing: 1px;
+    text-align: justify;
+    padding: 4vw 4vw 4vw 4vw;
+    color: white;
+}
+
+/*FASHION*/
+
+.cajaTexto-fashion{
+    display: grid;
+    align-content: center;
+    background-color: rgb(78, 78, 78);
+    border-radius: 2.5px;
+}
+
+.tituloGaleria-fashion{
+    font-family: 'ovo';
+    text-transform: uppercase;
+    color: rgb(231, 154, 154);
+    padding-bottom: 0.1vh;
+    text-align: center;
+    font-size: 8.5vw;
+    font-weight: lighter;
+    text-shadow: 1px 1px 1px #d4d3d3;
+}
+
+.textoGaleria-fashion{
+    font-size: 2.8vw;
+    letter-spacing: 1px;
+    text-align: justify;
+    padding: 4vw 4vw 0vw 4vw;
+    color: white;
+}
+
+
