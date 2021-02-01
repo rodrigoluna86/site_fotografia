@@ -283,6 +283,7 @@
   .sectionmain__titles {
     font-size: 11vw; } }
 
+/*GRID*/
 .contGaleria {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -303,6 +304,7 @@
 .cajaTexto-advertising {
   grid-column-start: span 2; }
 
+/*QUERIES*/
 @media (min-width: 768px) {
   .contGaleria {
     grid-template-columns: repeat(3, 1fr); } }
