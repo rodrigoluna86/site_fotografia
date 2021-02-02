@@ -206,7 +206,7 @@
 
 /*footer Contacto*/
 .footerContact {
-  background-color: #181313;
+  background-color: #4e4e4e;
   display: grid;
   justify-content: center;
   justify-items: center;
@@ -307,7 +307,9 @@
 /*QUERIES*/
 @media (min-width: 768px) {
   .contGaleria {
-    grid-template-columns: repeat(3, 1fr); } }
+    grid-template-columns: repeat(3, 1fr); }
+  .itemGaleria:nth-child(1) {
+    grid-column-start: span 3; } }
 
 @media (min-width: 1024px) {
   .contGaleria {

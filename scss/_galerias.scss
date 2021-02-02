@@ -34,6 +34,9 @@
     .contGaleria{
         grid-template-columns: repeat(3, 1fr);
     }
+    .itemGaleria:nth-child(1){
+        grid-column-start: span 3;
+    }
 }
 
 @media (min-width:1024px){
