@@ -5,13 +5,18 @@
 }
 
 .h1-contact{
+    font-family: 'ovo';
+    text-transform: uppercase;
+    color: rgb(231, 154, 154);
+    padding-top: 3vh;
+    padding-bottom: 2vh;
     text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1.2rem;
+    font-size: 8.5vw;
+    text-shadow: 1px 1px 1px #d4d3d3;
 }
 
 .formulario {
-    background: #ff4848;
+    background: rgb(231, 154, 154);
 }
 
 .formulario form {
@@ -41,11 +46,11 @@
     background: none;
     outline: 0;
     color: #fff;
-    border-bottom: 1px solid #ffa5a5;
+    border-bottom: 1px solid #fcc2c2;
 }
 
 .formulario form button {
-    background: #ffa5a5;
+    background: #fcc2c2;
     border: 0;
     text-transform: uppercase;
     padding: 1em;
@@ -81,16 +86,28 @@
 }
 
 
-@media(min-width: 700px) {
+/*QUERIES*/
+
+
+@media(min-width: 768px){
     .cajaForm {
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
-
+    .h1-contact{
+        font-size: 6vw;
+    }
     .contactInfo h2,
     .contactInfo h3,
     .contactInfo ul,
     .contactInfo p {
         text-align: left;
+    }
+}
+
+@media(min-width: 1024px){
+    .h1-contact{
+        font-size: 3vw;
+        padding-top: 4vh;
     }
 }
