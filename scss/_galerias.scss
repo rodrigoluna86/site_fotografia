@@ -37,6 +37,18 @@
     .itemGaleria:nth-child(1){
         grid-column-start: span 3;
     }
+    .cajaTexto-fashion{
+        grid-column-start: span 3;
+    }
+    .cajaTexto-galeria{
+        grid-column-start: span 3;
+    }
+    .cajaTexto-advertising{
+        grid-column-start: span 3;
+    }
+    .itemGaleria-catalogue{
+        grid-column-start: span 3;
+    }
 }
 
 @media (min-width:1024px){

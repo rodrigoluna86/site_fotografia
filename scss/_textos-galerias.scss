@@ -17,7 +17,7 @@
     text-shadow: 1px 1px 1px #d4d3d3;
 }
 
-.textoGaleria{
+.textoGaleria, .textoGaleria2{
     font-size: 2.8vw;
     letter-spacing: 1px;
     text-align: justify;
@@ -109,7 +109,7 @@
     text-shadow: 1px 1px 1px #d4d3d3;
 }
 
-.textoGaleria-fashion{
+.textoGaleria-fashion, .textoGaleria-fashion2{
     font-size: 2.8vw;
     letter-spacing: 1px;
     text-align: justify;
@@ -117,4 +117,36 @@
     color: white;
 }
 
+
+@media (min-width:768px){
+    .textoGaleria{
+        padding-top: 2rem;
+        font-size: 1.6vh;
+    }
+    .textoGaleria2{
+        padding-bottom: 1.8rem;
+        font-size: 1.6vh;
+    }
+    .textoGaleria-fashion{
+        padding-top: 2rem;
+        font-size: 1.6vh;
+    }
+    .textoGaleria-fashion2{
+        padding-bottom: 1.8rem;
+        font-size: 1.6vh;
+    }
+    .textoGaleria-advertising{
+        padding-top: 2rem;
+        padding-bottom: 1.8rem;
+        font-size: 1.6vh;
+    }
+    .textoGaleria-catalogue{
+        padding-top: 2rem;
+        font-size: 1.6vh;
+    }
+    .textoGaleria-catalogue2{
+        padding-bottom: 1.8rem;
+        font-size: 1.6vh;
+    }
+}
 
