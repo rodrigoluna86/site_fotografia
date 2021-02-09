@@ -55,5 +55,11 @@
     .contGaleria{
         grid-template-columns: repeat(4, 1fr);
     }
+    .cajaTitulo-fashion:nth-child(1){
+        grid-column-start: span 4;
+    }
+    .cajaTexto-fashion{
+        grid-column-start: span 4;
+    }
 }
 
