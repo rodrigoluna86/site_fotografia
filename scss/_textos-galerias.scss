@@ -1,3 +1,8 @@
+@font-face{
+    font-family: lemonmilk;
+    src: url(../fonts/LEMONMILK-Light.otf);
+}
+
 /*FASHION*/
 
 .cajaTexto-fashion{
@@ -8,12 +13,12 @@
 }
 
 .tituloGaleria-fashion{
-    font-family: 'ovo';
+    font-family: 'lemonmilk';
     text-transform: uppercase;
     color: rgb(231, 154, 154);
     padding-bottom: 0.1vh;
     text-align: center;
-    font-size: 6vw;
+    font-size: 8.5vw;
     text-shadow: 1px 1px 1px #b9a7a7;
 }
 
@@ -36,7 +41,7 @@
 }
 
 .tituloGaleria{
-    font-family: 'ovo';
+    font-family: 'lemonmilk';
     text-transform: uppercase;
     color: rgb(231, 154, 154);
     padding-bottom: 0.1vh;
@@ -64,7 +69,7 @@
 }
 
 .tituloGaleria-advertising{
-    font-family: 'ovo';
+    font-family: 'lemonmilk';
     text-transform: uppercase;
     color: rgb(231, 154, 154);
     padding-bottom: 0.1vh;
@@ -92,7 +97,7 @@
 }
 
 .tituloGaleria-catalogue{
-    font-family: 'ovo';
+    font-family: 'lemonmilk';
     text-transform: uppercase;
     color: rgb(231, 154, 154);
     padding-bottom: 0.1vh;
@@ -120,7 +125,7 @@
 /*ABOUT*/
 
 .titulo-about{
-    font-family: 'ovo';
+    font-family: 'lemonmilk';
     text-transform: uppercase;
     color: rgb(231, 154, 154);
     padding-top: 2vh;
@@ -131,7 +136,7 @@
 }
 
 .h1-contact{
-    font-family: 'ovo';
+    font-family: 'lemonmilk';
     text-transform: uppercase;
     color: rgb(231, 154, 154);
     padding-top: 4vh;
@@ -238,6 +243,30 @@
         padding-right: 6vw;
         padding-left: 6vw;
         color: rgb(231, 154, 154);  
+    }
+    .textoGaleria-fashion, .textoGaleria-fashion2{
+        text-align: center;
+        font-size: 1.3vw;
+        padding-right: 13vw;
+        padding-left: 13vw;
+    }
+    .textoGaleria, .textoGaleria2{
+        text-align: center;
+        font-size: 1.3vw;
+        padding-right: 13vw;
+        padding-left: 13vw;
+    }
+    .textoGaleria-advertising{
+        text-align: center;
+        font-size: 1.3vw;
+        padding-right: 13vw;
+        padding-left: 13vw;
+    }
+    .textoGaleria-catalogue, .textoGaleria-catalogue2{
+        text-align: center;
+        font-size: 1.3vw;
+        padding-right: 13vw;
+        padding-left: 13vw;
     }
 }
 

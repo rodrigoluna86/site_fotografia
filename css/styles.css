@@ -268,7 +268,8 @@
   align-items: center; }
 
 .sectionmain__titles {
-  font-family: 'ovo';
+  font-family: 'lemonmilk';
+  font-weight: bolder;
   text-align: center;
   color: whitesmoke;
   text-shadow: 2px 2px 4px #000000;
@@ -529,6 +530,10 @@ html {
 body {
   font-family: 'Montserrat', sans-serif !important; }
 
+@font-face {
+  font-family: lemonmilk;
+  src: url(../fonts/LEMONMILK-Light.otf); }
+
 /*FASHION*/
 .cajaTexto-fashion {
   display: grid;
@@ -537,12 +542,12 @@ body {
   border-radius: 2.5px; }
 
 .tituloGaleria-fashion {
-  font-family: 'ovo';
+  font-family: 'lemonmilk';
   text-transform: uppercase;
   color: #e79a9a;
   padding-bottom: 0.1vh;
   text-align: center;
-  font-size: 6vw;
+  font-size: 8.5vw;
   text-shadow: 1px 1px 1px #b9a7a7; }
 
 .textoGaleria-fashion, .textoGaleria-fashion2 {
@@ -560,7 +565,7 @@ body {
   border-radius: 2.5px; }
 
 .tituloGaleria {
-  font-family: 'ovo';
+  font-family: 'lemonmilk';
   text-transform: uppercase;
   color: #e79a9a;
   padding-bottom: 0.1vh;
@@ -583,7 +588,7 @@ body {
   border-radius: 2.5px; }
 
 .tituloGaleria-advertising {
-  font-family: 'ovo';
+  font-family: 'lemonmilk';
   text-transform: uppercase;
   color: #e79a9a;
   padding-bottom: 0.1vh;
@@ -606,7 +611,7 @@ body {
   border-radius: 2.5px; }
 
 .tituloGaleria-catalogue {
-  font-family: 'ovo';
+  font-family: 'lemonmilk';
   text-transform: uppercase;
   color: #e79a9a;
   padding-bottom: 0.1vh;
@@ -630,7 +635,7 @@ body {
 
 /*ABOUT*/
 .titulo-about {
-  font-family: 'ovo';
+  font-family: 'lemonmilk';
   text-transform: uppercase;
   color: #e79a9a;
   padding-top: 2vh;
@@ -640,7 +645,7 @@ body {
   text-shadow: 1px 1px 1px #b9a7a7; }
 
 .h1-contact {
-  font-family: 'ovo';
+  font-family: 'lemonmilk';
   text-transform: uppercase;
   color: #e79a9a;
   padding-top: 4vh;
@@ -727,7 +732,27 @@ body {
     text-align: justify;
     padding-right: 6vw;
     padding-left: 6vw;
-    color: #e79a9a; } }
+    color: #e79a9a; }
+  .textoGaleria-fashion, .textoGaleria-fashion2 {
+    text-align: center;
+    font-size: 1.3vw;
+    padding-right: 13vw;
+    padding-left: 13vw; }
+  .textoGaleria, .textoGaleria2 {
+    text-align: center;
+    font-size: 1.3vw;
+    padding-right: 13vw;
+    padding-left: 13vw; }
+  .textoGaleria-advertising {
+    text-align: center;
+    font-size: 1.3vw;
+    padding-right: 13vw;
+    padding-left: 13vw; }
+  .textoGaleria-catalogue, .textoGaleria-catalogue2 {
+    text-align: center;
+    font-size: 1.3vw;
+    padding-right: 13vw;
+    padding-left: 13vw; } }
 
 .img-about {
   width: 100vw; }
