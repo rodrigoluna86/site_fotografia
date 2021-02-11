@@ -253,6 +253,14 @@
   background-repeat: no-repeat;
   background-size: cover; }
 
+.tituloPrincipal {
+  text-decoration: none;
+  color: whitesmoke; }
+
+.tituloPrincipal:hover {
+  text-decoration: none;
+  color: whitesmoke; }
+
 .sectionmain {
   min-height: calc(100vh - 56px - 126px);
   display: grid;
@@ -276,14 +284,14 @@
   .sectionmain__titles {
     font-size: 16vw; } }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .bodyIndex {
     background-image: url(../images/getintouch/tumblr_phg1p32xA81r25epro1_1280.jpg);
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover; }
   .sectionmain__titles {
-    font-size: 11vw; } }
+    font-size: 9vw; } }
 
 /*GRID*/
 .contGaleria {
