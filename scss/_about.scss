@@ -1,18 +1,4 @@
-.about{
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-}
 
-.titulo-about{
-    font-family: 'ovo';
-    text-transform: uppercase;
-    color: rgb(231, 154, 154);
-    padding-top: 3vh;
-    padding-bottom: 2vh;
-    text-align: center;
-    font-size: 8.5vw;
-    text-shadow: 1px 1px 1px #d4d3d3;
-}
 
 .img-about{
     width: 100vw;
@@ -24,13 +10,22 @@
 }
 
 .item-about2{
+    display: grid;
     background-color: rgb(78, 78, 78);
 }
 
-.texto-about{
-    font-size: 2.8vw;
-    letter-spacing: 1px;
-    text-align: justify;
-    padding: 4vh 6vw 0 6vw;
-    color: rgb(231, 154, 154);  
+/*QUERIES*/
+
+
+@media (min-width: 1024px){
+    .caja-about{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .img-about{
+        width: 100%;
+    }
+    .item-about2{
+        align-content:center;
+    }
 }

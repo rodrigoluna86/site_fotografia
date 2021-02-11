@@ -107,16 +107,6 @@
 .cajaForm > * {
   padding: 1em; }
 
-.h1-contact {
-  font-family: 'ovo';
-  text-transform: uppercase;
-  color: #e79a9a;
-  padding-top: 3vh;
-  padding-bottom: 2vh;
-  text-align: center;
-  font-size: 8.5vw;
-  text-shadow: 1px 1px 1px #d4d3d3; }
-
 .formulario {
   background: #e79a9a; }
 
@@ -181,11 +171,10 @@
     grid-template-columns: 2fr 1fr; }
   .h1-contact {
     font-size: 6vw; }
-  .contactInfo h2,
-  .contactInfo h3,
-  .contactInfo ul,
-  .contactInfo p {
-    text-align: left; } }
+  .contactInfo {
+    display: grid;
+    text-align: center;
+    align-content: center; } }
 
 @media (min-width: 1024px) {
   .h1-contact {
@@ -454,6 +443,71 @@
   #foto28 {
     grid-area: foto28; } }
 
+@media (min-width: 1200px) {
+  .contGaleria {
+    grid-template-areas: "titulo titulo titulo titulo" "foto1 foto2 foto3 foto4" "texto texto texto texto" "foto5 foto6 foto7 foto8" "foto9 foto10 foto11 foto12" "foto13 foto14 foto15 foto16" "foto17 foto18 foto19 foto20" "foto21 foto22 foto23 foto24" "foto25 foto26 foto27 foto28";
+    grid-template-columns: 1fr 1fr 1fr 1fr; }
+  #titulo {
+    grid-area: titulo; }
+  #texto {
+    grid-area: texto; }
+  #foto1 {
+    grid-area: foto1; }
+  #foto2 {
+    grid-area: foto2; }
+  #foto3 {
+    grid-area: foto3; }
+  #foto4 {
+    grid-area: foto4; }
+  #foto5 {
+    grid-area: foto5; }
+  #foto6 {
+    grid-area: foto6; }
+  #foto7 {
+    grid-area: foto7; }
+  #foto8 {
+    grid-area: foto8; }
+  #foto9 {
+    grid-area: foto9; }
+  #foto10 {
+    grid-area: foto10; }
+  #foto11 {
+    grid-area: foto11; }
+  #foto12 {
+    grid-area: foto12; }
+  #foto13 {
+    grid-area: foto13; }
+  #foto14 {
+    grid-area: foto14; }
+  #foto15 {
+    grid-area: foto15; }
+  #foto16 {
+    grid-area: foto16; }
+  #foto17 {
+    grid-area: foto17; }
+  #foto18 {
+    grid-area: foto18; }
+  #foto19 {
+    grid-area: foto19; }
+  #foto20 {
+    grid-area: foto20; }
+  #foto21 {
+    grid-area: foto21; }
+  #foto22 {
+    grid-area: foto22; }
+  #foto23 {
+    grid-area: foto23; }
+  #foto24 {
+    grid-area: foto24; }
+  #foto25 {
+    grid-area: foto25; }
+  #foto26 {
+    grid-area: foto26; }
+  #foto27 {
+    grid-area: foto27; }
+  #foto28 {
+    grid-area: foto28; } }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -480,11 +534,11 @@ body {
   color: #e79a9a;
   padding-bottom: 0.1vh;
   text-align: center;
-  font-size: 8.5vw;
+  font-size: 6vw;
   text-shadow: 1px 1px 1px #b9a7a7; }
 
 .textoGaleria-fashion, .textoGaleria-fashion2 {
-  font-size: 2.8vw;
+  font-size: 2.5vw;
   letter-spacing: 1px;
   text-align: justify;
   padding: 4vw 4vw 0vw 4vw;
@@ -507,10 +561,10 @@ body {
   text-shadow: 1px 1px 1px #b9a7a7; }
 
 .textoGaleria, .textoGaleria2 {
-  font-size: 2.8vw;
+  font-size: 2.5vw;
   letter-spacing: 1px;
   text-align: justify;
-  padding: 0 3.5vw 0 3.5vw;
+  padding: 2vh 3.5vw 0 3.5vw;
   color: white; }
 
 /*ADVERTISING*/
@@ -530,7 +584,7 @@ body {
   text-shadow: 1px 1px 1px #b9a7a7; }
 
 .textoGaleria-advertising {
-  font-size: 2.8vw;
+  font-size: 2.5vw;
   letter-spacing: 1px;
   text-align: justify;
   padding: 4vw 4vw 4vw 4vw;
@@ -548,25 +602,57 @@ body {
   text-transform: uppercase;
   color: #e79a9a;
   padding-bottom: 0.1vh;
-  padding-left: 1.3vw;
   text-align: center;
   font-size: 8.5vw;
-  padding-right: 10px;
   text-shadow: 1px 1px 1px #b9a7a7; }
 
 .textoGaleria-catalogue {
-  font-size: 2.8vw;
+  font-size: 2.5vw;
   letter-spacing: 1px;
   text-align: justify;
   padding: 4vw 4vw 0vw 4vw;
   color: white; }
 
 .textoGaleria-catalogue2 {
-  font-size: 2.8vw;
+  font-size: 2.5vw;
   letter-spacing: 1px;
   text-align: justify;
   padding: 0vw 4vw 4vw 4vw;
   color: white; }
+
+/*ABOUT*/
+.titulo-about {
+  font-family: 'ovo';
+  text-transform: uppercase;
+  color: #e79a9a;
+  padding-top: 2vh;
+  padding-bottom: 0.5vh;
+  text-align: center;
+  font-size: 8.5vw;
+  text-shadow: 1px 1px 1px #b9a7a7; }
+
+.h1-contact {
+  font-family: 'ovo';
+  text-transform: uppercase;
+  color: #e79a9a;
+  padding-top: 4vh;
+  padding-bottom: 3.5vh;
+  text-align: center;
+  font-size: 8.5vw;
+  text-shadow: 1px 1px 1px #b9a7a7; }
+
+.texto-about1,
+.texto-about2,
+.texto-about3 {
+  font-size: 2.5vw;
+  letter-spacing: 1px;
+  text-align: justify;
+  padding-right: 6vw;
+  padding-left: 6vw;
+  color: #e79a9a; }
+
+.texto-about1 {
+  padding-top: 2vh; }
 
 /*QUERIES*/
 @media (min-width: 768px) {
@@ -591,21 +677,49 @@ body {
     font-size: 1.6vh; }
   .textoGaleria-catalogue2 {
     padding-bottom: 1.8rem;
-    font-size: 1.6vh; } }
+    font-size: 1.6vh; }
+  .tituloGaleria-fashion,
+  .tituloGaleria,
+  .tituloGaleria-advertising,
+  .tituloGaleria-catalogue,
+  .h1-contact {
+    font-size: 5vw;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem; }
+  .titulo-about {
+    font-size: 5vw;
+    padding-top: 3rem;
+    padding-bottom: 2.5rem; }
+  .texto-about1,
+  .texto-about2,
+  .texto-about3 {
+    font-size: 2vw;
+    letter-spacing: 1px;
+    text-align: justify;
+    padding-right: 6vw;
+    padding-left: 6vw;
+    padding-bottom: 3vh;
+    color: #e79a9a; } }
 
-.about {
-  display: grid;
-  grid-template-rows: repeat(2, 1fr); }
-
-.titulo-about {
-  font-family: 'ovo';
-  text-transform: uppercase;
-  color: #e79a9a;
-  padding-top: 3vh;
-  padding-bottom: 2vh;
-  text-align: center;
-  font-size: 8.5vw;
-  text-shadow: 1px 1px 1px #d4d3d3; }
+@media (min-width: 1024px) {
+  .tituloGaleria-fashion,
+  .tituloGaleria,
+  .tituloGaleria-advertising,
+  .tituloGaleria-catalogue,
+  .titulo-about,
+  .h1-contact {
+    font-size: 4.5vw;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem; }
+  .texto-about1,
+  .texto-about2,
+  .texto-about3 {
+    font-size: 1.1vw;
+    letter-spacing: 1px;
+    text-align: justify;
+    padding-right: 6vw;
+    padding-left: 6vw;
+    color: #e79a9a; } }
 
 .img-about {
   width: 100vw; }
@@ -614,11 +728,15 @@ body {
   margin-bottom: 0px; }
 
 .item-about2 {
+  display: grid;
   background-color: #4e4e4e; }
 
-.texto-about {
-  font-size: 2.8vw;
-  letter-spacing: 1px;
-  text-align: justify;
-  padding: 4vh 6vw 0 6vw;
-  color: #e79a9a; }
+/*QUERIES*/
+@media (min-width: 1024px) {
+  .caja-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+  .img-about {
+    width: 100%; }
+  .item-about2 {
+    align-content: center; } }
